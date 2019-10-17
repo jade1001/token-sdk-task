@@ -4,6 +4,7 @@ import co.paralleluniverse.fibers.Suspendable
 import com.template.contracts.RegisterContract
 import com.template.states.RegisterState
 import net.corda.core.contracts.Command
+import net.corda.core.contracts.UniqueIdentifier
 import net.corda.core.flows.FinalityFlow
 import net.corda.core.flows.FlowLogic
 import net.corda.core.flows.InitiatingFlow
