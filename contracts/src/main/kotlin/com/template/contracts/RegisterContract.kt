@@ -14,6 +14,7 @@ class RegisterContract : Contract {
     override fun verify(tx: LedgerTransaction){
 
     }
+
     interface Commands: CommandData{
         class Action : Commands
         class Register : TypeOnlyCommandData(), Commands
